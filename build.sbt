@@ -4,6 +4,7 @@ name := "mq-tests"
 
 version := "0.1.4"
 
+
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.11",
   "org.scalatest" % "scalatest_2.10" % "2.1.5",
@@ -21,8 +22,9 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.1",
   "org.slf4j" % "log4j-over-slf4j" % "1.7.1",  // for any java classes looking for this
   "ch.qos.logback" % "logback-classic" % "1.0.3",
-  "com.typesafe.akka" %% "akka-actor" % "2.2.4",
-  "com.typesafe.akka" %% "akka-testkit" % "2.2.4"
+  "com.typesafe.akka" %% "akka-actor" % "2.3.0",
+  "com.typesafe.akka" %% "akka-testkit" % "2.3.0",
+  "com.typesafe.akka" %% "akka-zeromq" % "2.2.0"
 )
 
 
