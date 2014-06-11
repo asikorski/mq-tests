@@ -24,7 +24,7 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.0.3",
   "com.typesafe.akka" %% "akka-actor" % "2.3.0",
   "com.typesafe.akka" %% "akka-testkit" % "2.3.0",
-  "com.typesafe.akka" %% "akka-zeromq" % "2.2.0"
+  "com.rabbitmq" % "amqp-client" % "3.3.0"
 )
 
 
